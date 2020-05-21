@@ -9,7 +9,7 @@ from starlette.middleware.cors import CORSMiddleware
 from starlette.responses import HTMLResponse, JSONResponse
 from starlette.staticfiles import StaticFiles
 
-export_file_url = 'https://www.dropbox.com/s/z67cn63w2smdzmm/food101_models_stage-3-rn50.pth?dl=1'
+export_file_url = 'https://www.dropbox.com/s/f56eo8fwflbjxfq/food101_models_trained_model.pkl?dl=1'
 export_file_name = 'export.pkl'
 
 classes = ['apple_pie',  'baby_back_ribs',  'baklava',  'beef_carpaccio',  'beef_tartare',  'beet_salad',  'beignets',  'bibimbap',  'bread_pudding',
